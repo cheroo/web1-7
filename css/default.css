@@ -7,25 +7,36 @@
 
 body{
   background-color:white;
+  margin:48px 0 0 0;
 }
 header{
   background-color:orange;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
 }
-#main1{
+#main{
   background-color:red;
   width:calc(100%-200px);
   min-width:500px;
   float:left;
 }
-#main2{
+.box{
   background-color:blue;
-    width:500px;
-  float:right;
+  color:black;
+    width:240px;
+  height:80px;
+  margin:5px;
+  float:left;
 }
 aside{
   background-color:green;
     width:200px;
   float:right;
+  position:relative;
+  top:20px;
+  right:10px;
 }
 footer{
   background-color:purple;
