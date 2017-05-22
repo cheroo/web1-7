@@ -14,15 +14,19 @@ header{
 #main1{
   background-color:red;
   width:500px;
+  float:left;
 }
 #main2{
   background-color:blue;
     width:500px;
+  float:right;
 }
 aside{
   background-color:green;
     width:200px;
+  float:right;
 }
 footer{
   background-color:purple;
+  clear:both;
 }
